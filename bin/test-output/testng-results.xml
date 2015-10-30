@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15" started-at="2015-10-07T23:07:03Z" finished-at="2015-10-07T23:07:03Z">
+    <groups>
+      <group name="a">
+        <method signature="projectFileTest.launchurlfirefox(java.lang.String, java.lang.String)[pri:0, instance:com.org.cnnexpansion.projectFileTest@2d554825]" name="launchurlfirefox" class="com.org.cnnexpansion.projectFileTest"/>
+      </group> <!-- a -->
+      <group name="b">
+        <method signature="projectFileTest.launchurlfirefox(java.lang.String, java.lang.String)[pri:0, instance:com.org.cnnexpansion.projectFileTest@2d554825]" name="launchurlfirefox" class="com.org.cnnexpansion.projectFileTest"/>
+      </group> <!-- b -->
+    </groups>
+    <test name="Test" duration-ms="15" started-at="2015-10-07T23:07:03Z" finished-at="2015-10-07T23:07:03Z">
+      <class name="com.org.cnnexpansion.projectFileTest">
+        <test-method status="FAIL" signature="launchurlfirefox(java.lang.String, java.lang.String)[pri:0, instance:com.org.cnnexpansion.projectFileTest@2d554825]" name="launchurlfirefox" duration-ms="0" started-at="2015-10-08T04:37:03Z" data-provider="loginpage" finished-at="2015-10-08T04:37:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tamizhmani313@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9941966190]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.org.cnnexpansion.HomePage.launchbrowser(HomePage.java:28)
+	at com.org.cnnexpansion.projectFileTest.launchurlfirefox(projectFileTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurlfirefox -->
+      </class> <!-- com.org.cnnexpansion.projectFileTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

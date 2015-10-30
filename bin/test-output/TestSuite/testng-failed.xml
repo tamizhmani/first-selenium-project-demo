@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [TestSuite]" parallel="methods">
+  <test name="testtest(failed)" parallel="methods" preserve-order="false">
+    <classes>
+      <class name="com.org.cnnexpansion.projectFileTest">
+        <methods>
+          <include name="driverinitialize"/>
+          <include name="launchurlfirefox"/>
+          <include name="launchurlchrome"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

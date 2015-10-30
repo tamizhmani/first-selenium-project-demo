@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [Suite]" parallel="methods">
+  <test name="Test(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="c"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.org.cnnexpansion.projectFileTest">
+        <methods>
+          <include name="getdrivers"/>
+          <include name="launchurlchrome" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.org.cnnexpansion.projectFileTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

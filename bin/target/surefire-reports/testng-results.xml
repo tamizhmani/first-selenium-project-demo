@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="100342" started-at="2015-10-16T02:33:29Z" finished-at="2015-10-16T02:35:09Z">
+    <groups>
+      <group name="b">
+        <method signature="projectFileTest.launchurlchrome(java.lang.String, java.lang.String)[pri:0, instance:com.org.cnnexpansion.projectFileTest@3b088d51]" name="launchurlchrome" class="com.org.cnnexpansion.projectFileTest"/>
+      </group> <!-- b -->
+      <group name="c">
+        <method signature="projectFileTest.launchurlchrome(java.lang.String, java.lang.String)[pri:0, instance:com.org.cnnexpansion.projectFileTest@3b088d51]" name="launchurlchrome" class="com.org.cnnexpansion.projectFileTest"/>
+      </group> <!-- c -->
+    </groups>
+    <test name="Test" duration-ms="100342" started-at="2015-10-16T02:33:29Z" finished-at="2015-10-16T02:35:09Z">
+      <class name="com.org.cnnexpansion.projectFileTest">
+        <test-method status="PASS" signature="getdrivers()[pri:0, instance:com.org.cnnexpansion.projectFileTest@3b088d51]" name="getdrivers" is-config="true" duration-ms="8998" started-at="2015-10-16T08:03:29Z" finished-at="2015-10-16T08:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdrivers -->
+        <test-method status="PASS" signature="launchurlchrome(java.lang.String, java.lang.String)[pri:0, instance:com.org.cnnexpansion.projectFileTest@3b088d51]" name="launchurlchrome" duration-ms="91334" started-at="2015-10-16T08:03:38Z" data-provider="loginpage" finished-at="2015-10-16T08:05:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tamizhmani313@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[**********]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurlchrome -->
+      </class> <!-- com.org.cnnexpansion.projectFileTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
