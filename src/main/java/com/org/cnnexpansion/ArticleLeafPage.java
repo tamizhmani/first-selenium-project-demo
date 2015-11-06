@@ -35,11 +35,14 @@ public class ArticleLeafPage extends HomePage{
 		WD.navigate().to(articleurl);
 		test.log(LogStatus.INFO, "article page load", "Article is launched and loading");
 		Thread.sleep(10000);
-		WD.findElement(By.xpath("//body/div[3]/div[1]/div[2]")).click();
+		WebElement ww =WD.findElement(By.xpath("//body/div[3]/div[1]/div[2]"));
+		if (ww.isDisplayed()){
+			ww.click();
 		test.log(LogStatus.INFO, "TOS Banner colapse", "Banner is accepted and closed");
 		test.log(LogStatus.PASS, "Article page loaded succesfully");
 		report.endTest(test);
 		report.flush();
+		}
 	}
 	
 	public void expandablegallery() throws IOException{
