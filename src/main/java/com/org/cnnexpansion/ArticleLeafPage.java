@@ -14,6 +14,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -47,8 +48,10 @@ public class ArticleLeafPage extends HomePage{
 	
 	public void expandablegallery() throws IOException{
 		//WD.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		WebElement we = WD.findElement(By.xpath("//div[1]/div/div[2]/div[1]/div/img"));
-		we.click();
+		WebElement we = WD.findElement(By.xpath("//div[5]/div[1]/div/div[2]/div[1]/div/div[2]"));
+		Actions ac = new Actions (WD);
+		ac.moveToElement(we);
+		ac.click().perform();
 		we=WD.findElement(By.xpath("//div[1]/div[5]/div[1]/div/div[3]"));
 		String st = we.getAttribute("isextended");
 		System.out.println("isextended: " +st);
