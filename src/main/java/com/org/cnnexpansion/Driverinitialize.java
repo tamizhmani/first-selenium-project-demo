@@ -12,7 +12,7 @@ public class Driverinitialize {
 	 return WDf;
 	}
 	public WebDriver ChromeDriverinitialize(){
-	System.setProperty("Webdriver.chrome.driver", "C:\\browserdrivers\\chrome");
+	System.setProperty("Webdriver.chrome.driver", "C:\\browserdrivers\\chromedriver");
 	 WDc = new ChromeDriver();
 	 return WDc;
 	}

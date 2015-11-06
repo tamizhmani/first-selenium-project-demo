@@ -11,7 +11,7 @@
       <class name="com.org.cnnexpansion.projectFileTest">
         <methods>
           <include name="getdrivers"/>
-          <include name="launchurlchrome" invocation-numbers="0"/>
+          <include name="launchurlchrome"/>
         </methods>
       </class> <!-- com.org.cnnexpansion.projectFileTest -->
     </classes>

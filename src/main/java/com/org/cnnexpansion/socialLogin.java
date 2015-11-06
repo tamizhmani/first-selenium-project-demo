@@ -84,6 +84,7 @@ public class socialLogin extends HomePage{
 			else{
 	        test.log(LogStatus.FAIL, "trying to login","login failed");
 			library.utitity.getscreenshot(WD, "Loginstatus");
+			//test.addScreenCapture("D:\\seleniumproject\\xpanxion\\Screenshots\\Loginstatus.png");
 			test.addScreenCapture("./Screenshots/Loginstatus.png");
 			report.endTest(test);
 			report.flush();
